@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(212, 234, 252) ;
+    
+  }
+
+.nav-section {
+    background-color:#DC0073;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+  }
+  
+  .logo {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 150px;
+    
+  }
+
+  .search-bar {
+    position: relative;
+    display: flex;
+    top: 10px;
+    right: 30px;
+    width: 220px;
+  }
+  
+  .search-bar input {
+    appearance: none;
+    height: 30px;
+    width: 220px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+  }
+  
+  .searchbtn{
+    background-color:#DC0073;
+    height: 35px;
+    width:30px;
+    color: black;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .fa-search {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    color: #351431;
+    cursor: pointer;
+    
+  }  
+  
+  .fa-cart-plus, .fa-times, .fa-shopping-cart{
+    color: #351431;
+    cursor: pointer;
+    
+  }
+  .cart{
+    display: flex;
+    margin-right: 2px;
+    padding: 0 10px;
+    transform: scale(1.1);
+  }
+  .cartbtn{
+    background-color:rgb(212, 234, 252);
+    border: solid 1px black;
+    height: 35px;
+    color: black;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .cartbtn .badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #FBAF00;
+    color: black;
+  }
+  .lessonImg{
+    width: 300px;
+    height: 300px;
+  }
+  .cards{
+    display: inline-block;
+    border: solid #DC0073 5px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  button{
+    background-color: #FBAF00;
+    border: solid 1px black;
+    height: 35px;
+    color: black;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+  .fade{
+    background-color: grey;
+  }
+  
+  .field {
+    appearance: none;
+    height: 30px;
+    width: 220px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+  }
