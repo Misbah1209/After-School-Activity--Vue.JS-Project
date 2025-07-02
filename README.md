@@ -1,5 +1,5 @@
 # After school Activites - VUE.JS
-Misbah Shaikh M00735097
+Misbah Shaikh
 
 ## Project setup
 ```
