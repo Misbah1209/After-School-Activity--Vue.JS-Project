@@ -1,4 +1,4 @@
-# Coursework3
+# After school Activites - VUE.JS
 Misbah Shaikh M00735097
 
 ## Project setup
